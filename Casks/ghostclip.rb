@@ -1,6 +1,6 @@
 cask "ghostclip" do
-  version "0.1.0-alpha"
-  sha256 "721be54d9d9d56a80bafe2a4b448fafcb0159f2a098abdd9962f6ae627be43fa"
+  version "0.1.0-alpha.1"
+  sha256 "34fcd3de9cc906edcbc2596014868f7be3d6ad789733e93c06a2ac931c3e8634"
 
   url "https://github.com/xkcoding/GhostClip/releases/download/v#{version}/GhostClip_0.1.0_aarch64.dmg"
   name "GhostClip"
