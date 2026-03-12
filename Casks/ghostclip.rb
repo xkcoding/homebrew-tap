@@ -10,4 +10,9 @@ cask "ghostclip" do
   depends_on macos: ">= :ventura"
 
   app "GhostClip.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/GhostClip.app"]
+  end
 end
