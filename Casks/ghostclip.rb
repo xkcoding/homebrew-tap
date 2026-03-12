@@ -1,8 +1,8 @@
 cask "ghostclip" do
-  version "0.1.0"
-  sha256 "ba48d3a5553e09290f03a271762d0c5666ed3c0420572e2759a3f184c241826d"
+  version "0.1.1"
+  sha256 "feacac7d2f05d1e0896a90af71dc063302ec35feaabfb2a74ec888e202c5e5ff"
 
-  url "https://github.com/xkcoding/GhostClip/releases/download/v#{version}/GhostClip_0.1.0_universal.dmg"
+  url "https://github.com/xkcoding/GhostClip/releases/download/v#{version}/GhostClip_0.1.1_universal.dmg"
   name "GhostClip"
   desc "Android <-> Mac clipboard sync tool"
   homepage "https://github.com/xkcoding/GhostClip"
