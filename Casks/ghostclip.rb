@@ -12,7 +12,7 @@ cask "ghostclip" do
   app "GhostClip.app"
 
   postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/GhostClip.app"]
+    system_command "/bin/bash",
+                   args: ["-c", "/usr/bin/xattr -cr '"#{appdir}/GhostClip.app' 2>/dev/null; exit 0"]
   end
 end
